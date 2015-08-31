@@ -4,5 +4,7 @@ FROM gliderlabs/alpine
 
 MAINTAINER C2FO Platform Engineering <platform-eng@c2fo.com>
 
+RUN echo "Setting up the second app for far1"
+
 ENTRYPOINT ["/bin/sh","-c"]
 CMD ["/bin/sh"]
