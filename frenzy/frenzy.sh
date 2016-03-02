@@ -6,3 +6,7 @@ cd app1
 docker build -t app1:$FRENZY_SLUG .
 cd ../app2
 docker build -t app2:$FRENZY_SLUG .
+
+docker pull busybox
+
+docker tag busybox busybox:$FRENZY_SLUG

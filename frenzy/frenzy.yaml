@@ -1,0 +1,4 @@
+---
+dockerImageWhitelist:
+  - app1
+  - app2
